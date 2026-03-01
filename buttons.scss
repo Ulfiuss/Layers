@@ -189,7 +189,7 @@ select,
   background-color: var(--color-base-40);
 }
 
-/* Titlebar buttons */
+// Titlebar buttons ------------------------------------------- /
 .titlebar-button {
   position: relative;
   
@@ -222,7 +222,12 @@ select,
     background-color: transparent;
 }
 
-// Switches ---------------------------------------------------->
+// Sliders ---------------------------------------------------- /
+input[type='range']::-webkit-slider-thumb {
+  background: var(--toggle-thumb-color);
+}
+
+// Switches --------------------------------------------------- /
 // General
 .checkbox-container {
   background-color: var(--background-setting-item);
