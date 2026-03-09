@@ -156,7 +156,6 @@ select,
   background-color: var(--color-base-40);
 }
 
-/* Titlebar buttons */
 .titlebar-button {
   position: relative;
 }
@@ -169,47 +168,27 @@ select,
   background-color: transparent;
 }
 
-.titlebar-button.mod-minimize:hover::after {
-  content: "";
-  height: 24px;
-  width: 24px;
-  background-color: rgba(255, 255, 255, 0.1);
-  top: auto;
-  left: 10px;
-  right: auto;
-  bottom: auto;
-  position: absolute;
-  border-radius: 15px;
-}
-
-.titlebar-button.mod-maximize:hover::after {
-  content: "";
-  height: 24px;
-  width: 24px;
-  background-color: rgba(255, 255, 255, 0.1);
-  top: auto;
-  left: 10px;
-  right: auto;
-  bottom: auto;
-  position: absolute;
-  border-radius: 15px;
-}
-
+.titlebar-button.mod-minimize:hover::after,
+.titlebar-button.mod-maximize:hover::after,
 .titlebar-button.mod-close:hover::after {
   content: "";
-  height: 24px;
-  width: 24px;
+  height: 28px;
+  width: 28px;
   background-color: rgba(255, 255, 255, 0.1);
   top: auto;
-  left: 10px;
+  left: 8px;
   right: auto;
   bottom: auto;
   position: absolute;
-  border-radius: 15px;
+  border-radius: 28px;
 }
 
 .is-hidden-frameless:not(.is-fullscreen).is-focused .titlebar-button-container.mod-right {
   background-color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background: var(--toggle-thumb-color);
 }
 
 .checkbox-container {
@@ -256,7 +235,7 @@ select,
   padding: var(--callout-padding);
 }
 
-/* Embed Stuff ------------------------------------------------------------------- */
+/* Embed stuff ------------------------------------------------------------------- */
 .workspace-leaf-content[data-type=markdown] .markdown-embed,
 .workspace-leaf-content[data-type=markdown] .file-embed {
   border-radius: var(--embed-border-radius);
@@ -361,6 +340,27 @@ select,
   flex-direction: row-reverse;
 }
 
+.modal-sidebar {
+  background-color: var(--background-menu);
+}
+
+.community-modal-search-results-wrapper {
+  border-top: var(--border-width) solid var(--background-menu-separator);
+  box-shadow: inset 0 4px 4px -4px oklch(0% 0 0deg / 0.3);
+}
+
+.community-modal-details {
+  border-inline-start: var(--border-width) solid var(--background-menu-separator);
+}
+
+.modal-setting-nav-bar {
+  border-bottom: var(--border-width) solid var(--background-menu-separator);
+}
+
+.community-modal-info {
+  box-shadow: inset 0 4px 4px -4px oklch(0% 0 0deg / 0.3);
+}
+
 /* Settings ----------------------------------------------------- */
 /* Header --------------- */
 .modal.mod-settings.mod-sidebar-layout .modal-header {
@@ -414,12 +414,16 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
   border-radius: 0;
 }
 
-.vertical-tab-nav-item:nth-of-type(1) {
+.vertical-tab-nav-item:first-of-type {
   border-radius: 4px 4px 0 0;
   border-top: none;
 }
-.vertical-tab-nav-item:nth-last-of-type(1) {
+.vertical-tab-nav-item:last-of-type {
   border-radius: 0 0 4px 4px;
+}
+.vertical-tab-nav-item:hover:active {
+  background-color: transparent;
+  color: var(--text-muted);
 }
 
 /* Right pane ------------ */
@@ -444,7 +448,6 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
   background-color: var(--background-primary);
   padding-inline-start: 12px;
   padding-inline-end: 12px;
-  /*animation: slide-in .35s var(--anim-expressive-default-spatial);*/
 }
 
 .vertical-tab-header {
@@ -454,6 +457,13 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 
 .setting-group .setting-group-search {
   border-radius: var(--setting-items-radius);
+}
+
+.setting-group > .setting-items > div > .mobile-option-setting-item {
+  padding: var(--size-4-2) var(--size-4-3);
+  margin: var(--size-4-1) 0 0 0;
+  background-color: var(--background-setting-item);
+  border-radius: 4px;
 }
 
 /* Status bar ------------------------------------------------ */
