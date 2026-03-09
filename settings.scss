@@ -110,3 +110,11 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 .setting-group .setting-group-search {
   border-radius: var(--setting-items-radius);
 }
+
+// Kludge to make pinned commands look nice
+.setting-group > .setting-items > div > .mobile-option-setting-item {
+    padding: var(--size-4-2) var(--size-4-3);
+    margin: var(--size-4-1) 0 0 0;
+    background-color: var(--background-setting-item);
+    border-radius: 4px;
+}
