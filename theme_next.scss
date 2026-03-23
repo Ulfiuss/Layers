@@ -5,7 +5,8 @@
 @use "modals";
 @use "settings";
 @use "status-bar";
-@use "tables";
+//@use "tables";
+@use "tables_new";
 @use "tabs";
 @use "tags";
 @use "theme_dark";
@@ -20,6 +21,8 @@ body {
   --anim-expressive-default-spatial: cubic-bezier(0.38, 1.21, 0.22, 1.00);
   /* Backgrounds */
   --background-modifier-message: var(--background-primary-alt);
+  /* Bases */
+  --bases-table-column-border-width: 0;
   /* Callouts */
   --callout-border-width: 4px;
   --callout-border-opacity: 0.25;
@@ -81,6 +84,17 @@ body {
   --tab-background-active: var(--background-modal-navigation);
   --tab-container-background: var(--background-secondary-alt);
   --tab-radius-active: var(--radius-s);
+  /* Tables */
+  --table-border-width: 1px;
+  --table-header-border-width: 0;
+  --table-column-first-border-width: 0;
+  --table-column-last-border-width: 0;
+  --table-row-last-border-width: 0;
+  --table-header-background-hover: var(--background-modifier-hover);
+  --table-row-background-hover: var(--background-modifier-hover);
+  --table-row-alt-background-hover: var(--background-modifier-hover);
+  --table-drag-handle-color: var(--text-muted);
+  --table-add-button-border-width: 0;
   /* Toggles */
   --toggle-thumb-color: var(--color-base-70);
   --check-mark: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgb(80 80 80)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>');

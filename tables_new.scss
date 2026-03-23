@@ -1,0 +1,18 @@
+thead tr th {
+  border-left: none !important;
+  border-right:none !important;
+}
+
+tr td,
+tr th {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.cm-html-embed td,
+.markdown-rendered td,
+.cm-html-embed th,
+.markdown-rendered th,
+.markdown-source-view.mod-cm6 .cm-table-widget .table-cell-wrapper {
+  padding: 8px 12px;
+}
