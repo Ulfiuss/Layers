@@ -32,7 +32,9 @@ body {
   --canvas-dot-pattern: var(--color-base-50);
   /* Card */
   --card-border: 1px solid var(--card-border-color);
-  /* Codeblock */
+  /* Code */
+  --code-border-width: 1px;
+  --code-border-color: var(--color-base-30);
   --code-comment: var(--text-muted);
   /* Dropdowns */
   --dropdown-background-blend-mode: luminosity;
