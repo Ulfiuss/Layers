@@ -1,13 +1,15 @@
-thead tr th {
-  border-left: none !important;
-  border-right:none !important;
-}
-
-tr td,
-tr th {
+.markdown-rendered:not(.has-focus){
+  thead tr th {
   border-left: none !important;
   border-right: none !important;
-}
+  }
+
+  tr td,
+  tr th {
+    border-left: none !important;
+    border-right: none !important;
+  }
+} 
 
 .cm-html-embed td,
 .markdown-rendered td,
