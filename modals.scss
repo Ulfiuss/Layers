@@ -1,9 +1,8 @@
+@use "animations" as anim;
+
 /* Modals ----------------------- */
 .mod-dim .modal-bg {
     opacity: 1 !important;
-    //backdrop-filter: blur(2px);
-    //animation: blur-in 0.15s ease-out;
-    animation: dark-cover 1.15 ease-out;
     background-color: oklch(.2 0 0 / .9);
     background-image: var(--background-img-modal);
 }
