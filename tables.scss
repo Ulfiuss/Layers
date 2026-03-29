@@ -18,3 +18,11 @@
 .markdown-source-view.mod-cm6 .cm-table-widget .table-cell-wrapper {
   padding: 8px 12px;
 }
+
+// make 'add row'-button as bright as drag handle
+.markdown-source-view.mod-cm6 .cm-table-widget {
+  .table-row-btn,
+  .table-line-btn {
+    color: var(--text-muted);
+  }
+}
