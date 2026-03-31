@@ -1,7 +1,13 @@
 .graph-controls {
-    background-color: transparent;
+    border: none;
+    background-color: oklch(1 0 0 /.03);
     backdrop-filter: blur(20px);
     &.is-close {
         background-color: transparent;
     }
+}
+
+.graph-controls {
+    background-color: oklch(1 0 0 /.03);
+    backdrop-filter: blur(20px);
 }
