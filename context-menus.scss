@@ -11,6 +11,10 @@
   .base-toolbar-sort-item {
     background: inherit;
   }
+  
+  .combobox-button {
+    background: var(--background-modal-navigation);
+  }
 }
 
 .menu-scroll {
