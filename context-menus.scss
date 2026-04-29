@@ -7,6 +7,10 @@
   &:not(.bases-toolbar-menu) {
     mix-blend-mode: luminosity;  
   }
+
+  .base-toolbar-sort-item {
+    background: inherit;
+  }
 }
 
 .menu-scroll {
