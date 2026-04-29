@@ -11,7 +11,8 @@ I'd like to make a few things (e. g. transparency, contrast) toggle-able via Sty
 # Contributing
 Feel free to create issues and pull requests. Please do alert me to issues with plugins and issues specific to your platform or language. Please be advised, though, that *I'm not a dev* and therefore I might ask stupid questions. 
 
-Please **don't just copypaste AI output**: Firstly, I could do that myself. More importantly, I'm making this theme for fun and I'd like to understand what I'm merging. Having stuff generated would be detrimental in that regard.
+However, as a precautionary measure **pull requests and issues written by generative AI will be rejected** to discourage spam. Also, as [one of the Typst maintainers said:](https://github.com/typst/typst/pull/7932)
+>There is very limited value in having an external contributor as an intermediary between a maintainer and an AI model and AI-driven contributions can easily create a dangerous imbalance where a maintainer invests more time into a PR than the contributor themselves.
 # Attributions
 ## Code
 - Obsidian [Obsidian Sample Theme](https://github.com/obsidianmd/obsidian-sample-theme): This repo is based on it.
