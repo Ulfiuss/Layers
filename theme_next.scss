@@ -313,6 +313,10 @@ body:not(.is-mobile) .workspace-split.mod-sidedock.mod-left-split .workspace-sid
     -webkit-app-region: drag;
 }
 
+/* Sidebar ------------------------------------------------------ */
+.search-result-hover-button {
+  color: var(--text-muted)
+}
 /* Suggestion container ----------------------------------------- */
 .suggestion-container {
   background-color: rgba(var(--color-base-25-rgb), 0.9);
