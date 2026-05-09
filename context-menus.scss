@@ -11,8 +11,8 @@
   .base-toolbar-sort-item {
     background: inherit;
   }
-  
-  .combobox-button {
+
+  .combobox-button, select.dropdown {
     background: var(--background-modal-navigation);
   }
 }
