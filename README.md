@@ -1,13 +1,17 @@
 ![Preview](preview.png)
-My personal Obsidian theme. Might break plugins. Low contrast or "soft" dark by design. Light theme WIP. **Not** tested on mobile or macOS. Probably a big kludge to someone who knows how to code.
+My personal Obsidian theme. Probably breaks plugins. Low contrast or "soft" dark by design. Light theme WIP. 
 
-# Feature
-Side-dock makes use of Fitt's Law. Might not work with RTL-languages.
+**Not** tested on Android, iOS, iPadOS and macOS as I don't use Obsidian much on mobile and I don't own any Apple devices. 
 
-## Other features
-Conforming to my weird aesthetic tastes.
+# Features
+- Conforming to my weird aesthetic tastes. 
+- Straightforward, readable tables.
 ## Planned features
-I'd like to make a few things (e. g. transparency, contrast) toggle-able via Style Settings once I figure out how the YAML works. No infinite colour settings though. Maybe a blue tinted dark theme variant. Eventually, if there's time, I'd like to make a proper mobile version.
+- style settings toggles:
+    - high and medium contrast options
+    - blue tint option for dark theme
+    - transparency off option
+- mobile version
 # Contributing
 Feel free to create issues and pull requests. Please do alert me to issues with plugins and issues specific to your platform or language. Please be advised, though, that *I'm not a dev* and therefore I might ask stupid questions. 
 
