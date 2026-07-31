@@ -1,7 +1,7 @@
 /* Button and Input ------------------------------------ */
 button{
   &:not(.clickable-icon) {
-    transition: all .15s;
+    transition: all .15s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   &:active {
@@ -53,14 +53,14 @@ select,
   &:hover:active {
     background-color: transparent;
     color: var(--text-faint);
-    transition: background-color, color .15s ease-out;
+    transition: background-color, color .15s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   &.has-active-menu,
   &:hover:active {
     background-color: transparent;
     color: var(--text-faint);
-    transition: background-color, color .15s ease-out;
+    transition: background-color, color .15s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   &.has-active-menu,
@@ -133,13 +133,13 @@ select,
     &:hover .clickable-icon {
       background-color: transparent;
       opacity: var(--icon-opacity-hover);
-      transition: color .15s ease-out;
+      transition: color .15s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     &:hover:active .clickable-icon {
       opacity: var(--icon-opacity-active);
       color: var(--text-faint);
-      transition: color .15s ease-out;
+      transition: color .15s cubic-bezier(0.16, 1, 0.3, 1);
     }
     
     &:hover .clickable-icon::after {
@@ -152,7 +152,7 @@ select,
       width: auto;
       background-color: var(--background-modifier-hover);
       border-radius: inherit;
-      transition: background-color .15s ease-out;
+      transition: background-color .15s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     &:hover:active .clickable-icon::after {
