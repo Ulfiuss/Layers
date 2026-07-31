@@ -47,20 +47,40 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 
 /* Right pane ------------ */
 // Setting items
-.setting-group > .setting-items {
-  background-color: transparent;
-  padding: 0;
+//
+.setting-group .setting-item:not(.setting-item-heading)::before {
+    display: none; // remove superfluous dividers
 }
 
-.vertical-tab-content .setting-item:not(.setting-item-heading) {
-    display: flex;
-    align-items: center;
-    padding: 0.75em 0;
-    border-top: none;
-    background-color: var(--background-setting-item);
-    border-radius: 4px;
-    margin: 4px 1px 0 1px;
-    padding: 0.75em 24px;
+.setting-group > .setting-items {
+    background-color: transparent;
+    padding: 0;
+}
+
+
+.setting-group .setting-group-search:not(:empty) + .setting-items > .setting-item:first-child {
+    border-top-left-radius: var(--setting-items-radius); 
+    border-top-right-radius: var(--setting-items-radius);
+}
+
+
+.vertical-tab-content {
+    &:not(.setting-page) .setting-item:not(.setting-item-heading) {
+        // display: flex; 
+        align-items: center;
+        // padding: 0.75em 0; 
+        // border-top: none; 
+        background-color: var(--background-setting-item);
+        border-radius: 4px;
+        margin: 4px 1px 0 1px;
+        padding: 0.75em 24px;
+    }
+
+    &.setting-page .setting-item:not(.setting-item-heading) {
+        background-color: var(--background-setting-item);
+        border-radius: 4px;
+        margin: 4px 1px 0 1px;
+    }
 }
 
 .horizontal-tab-content, 
