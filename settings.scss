@@ -1,35 +1,4 @@
 /* Settings ----------------------------------------------------- */
-/* Header --------------- */
-.modal.mod-settings {
-    &.mod-sidebar-layout .modal-header {
-        display: flex;
-        margin-bottom: 8px;
-        color: transparent;
-    }
-
-    .modal-setting-back-button {
-        display: none;
-    }
-
-    .vertical-tab-header {
-        padding: 0 6px 12px 12px;
-        .vertical-tab-header-group:first-of-type {
-            padding: 0 0 12px 0;
-        }
-    }
-
-    // Header related padding removal
-    &.mod-sidebar-layout {
-        .vertical-tab-content {
-            padding-top: 0;
-        }
-
-        .vertical-tab-header-group:first-of-type  .vertical-tab-header-group-title {
-            padding: 1px 8px 8px 8px;
-        }
-    }
-}
-
 /* Left pane ------------ */
 body:not(.is-phone) .vertical-tab-header-group-items {
     gap: 0;
