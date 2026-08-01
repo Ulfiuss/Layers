@@ -47,7 +47,6 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 
 /* Right pane ------------ */
 // Setting items
-//
 .setting-group .setting-item:not(.setting-item-heading)::before {
     display: none; // remove superfluous dividers
 }
@@ -66,10 +65,7 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 
 .vertical-tab-content {
     &:not(.setting-page) .setting-item:not(.setting-item-heading) {
-        // display: flex; 
         align-items: center;
-        // padding: 0.75em 0; 
-        // border-top: none; 
         background-color: var(--background-setting-item);
         border-radius: 4px;
         margin: 4px 1px 0 1px;
