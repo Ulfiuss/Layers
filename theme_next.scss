@@ -47,6 +47,13 @@ body {
   /* Graphs */
   --graph-line:  var(--color-base-50, var(--background-modifier-border-focus));
   /* Headings */
+  --h1-letter-spacing: normal;
+  --h2-letter-spacing: normal;
+  --h3-letter-spacing: normal;
+  --h4-letter-spacing: normal;
+  --h5-letter-spacing: normal;
+  --h6-letter-spacing: normal;
+  --h6-letter-spacing: normal;
   --inline-title-size: calc( var(--h1-size)* 1.5);
   --inline-title-weight: 300;
   --inline-title-color: var(--color-base-70);
