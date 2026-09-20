@@ -24,6 +24,8 @@ However, as a precautionary measure **pull requests and issues written by genera
 - Steve Schoger [Heropatterns](https://heropatterns.com/): Background image for modals
     - Licence: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
     - Modified
+- [Lucide](https://lucide.dev/): check-mark, warning-symbol
+    - Modified
 ## Inspiration
 - Alexis C [Cupertino](https://github.com/aaaaalexis/obsidian-cupertino), Anubis [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin), Akifyss [Border](https://github.com/Akifyss/obsidian-border), Lucas Champagne [Encore](https://github.com/Carbonateb/obsidian-encore-theme): Island design for editor
 - Mozilla [Firefox](https://www.firefox.com): Floating tabs
