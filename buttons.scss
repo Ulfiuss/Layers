@@ -105,7 +105,8 @@ select,
 
 /* the same for dropdowns */
 .vertical-tab-content select, 
-.setting-item .dropdown {
+.setting-item .dropdown,
+.setting-item .combobox-button {
   background-color: var(--background-modal-navigation);
   &:hover {
     background-color: var(--color-base-40);
