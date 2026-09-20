@@ -93,7 +93,7 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 
 // Setting group search
 .setting-group .setting-group-search {
-  border-radius: var(--setting-items-radius);
+    border-radius: var(--setting-items-radius);
 }
 
 // Kludge to make pinned commands look nice
