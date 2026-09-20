@@ -1,5 +1,5 @@
 /* Button and Input ------------------------------------ */
-button{
+button {
   &:not(.clickable-icon) {
     transition: all .15s cubic-bezier(0.16, 1, 0.3, 1);
   }
