@@ -22,6 +22,7 @@ body {
   --background-modifier-message: var(--background-primary-alt);
   /* Bases */
   --bases-table-column-border-width: 0;
+  --bases-embed-radius: var(--radius-m);
   /* Callouts */
   --callout-border-width: 4px;
   --callout-border-opacity: 0.25;
@@ -93,6 +94,7 @@ body {
   --tab-container-background: var(--background-secondary-alt);
   --tab-radius-active: var(--radius-s);
   /* Tables */
+  --table-header-size: calc(1em - 0.5pt); 
   --table-border-width: 1px;
   --table-header-border-width: 0;
   --table-column-first-border-width: 0;

@@ -19,6 +19,13 @@
   padding: 8px 12px;
 }
 
+.cm-html-embed th, 
+.markdown-rendered th {
+  font-synthesis-small-caps: none;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.05em;
+}
+
 // make 'add row'-button as bright as drag handle
 .markdown-source-view.mod-cm6 .cm-table-widget {
   .table-row-btn,
