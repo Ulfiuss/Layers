@@ -115,6 +115,7 @@
 .mod-left-split .workspace-tab-header-inner,
 .mod-right-split .workspace-tab-header-inner {
   border-radius: inherit;
+  padding: 0 var(--size-4-2);
   .is-active {
     padding-top: 1px;
   }
