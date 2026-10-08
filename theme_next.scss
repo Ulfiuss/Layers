@@ -92,7 +92,8 @@ body {
   /* Tabs */
   --tab-background-active: var(--background-modal-navigation);
   --tab-container-background: var(--background-secondary-alt);
-  --tab-radius-active: var(--radius-s);
+  --tab-radius-active: var(--tab-radius);
+  --tab-radius: var(--radius-s);
   /* Tables */
   --table-header-size: calc(1em - 0.5pt); 
   --table-border-width: 1px;
