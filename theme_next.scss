@@ -266,50 +266,15 @@ body:not(.is-mobile) .workspace-split.mod-sidedock.mod-left-split .workspace-sid
   opacity: 0;
 }
 
-// Style newtab actions as buttons
-.empty-state-action-list {
-  font-size: var(--font-text-size);
-  line-height: var(--line-height-normal);
-  color: var(--text-muted);
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  flex-wrap: nowrap;
-}
-
-.empty-state-action {
-  cursor: var(--cursor);
-  line-height: 56px;
-  color: var(--text-accent);
-  background-color: var(--background-primary-alt);
-  border-radius: 8px;
-  box-shadow: 0 1px 0 var(--background-secondary);
-  color: var(--text-normal);
-  padding: 0 32px;
-  transition: all .15s;
-
-  &.tappable:hover {
-    background-color: var(--empty-state-action-hover);
-    color: var(--text-normal);
-    box-shadow: 0 1px 3px var(--background-secondary);
+@media (hover:hover){
+  .empty-state-action-list > .text-icon-button.mod-pill {
+    transition: background-color 0.25s;
   }
-
-  &.tappable:active {
-    background-color: transparent;
-    color: var(--text-normal);
-    box-shadow: var(--input-shadow-active);
-  }
-
-  &.tappable.mod-close, 
-  &.tappable.mod-close:hover{
-    color: var(--text-error);
-  }
-
-  &.tappable.mod-close:active {
-    box-shadow: var(--input-shadow-active-warning);
+  .empty-state-action-list > .text-icon-button.mod-pill:hover {
+    background-color: var(--background-modifier-hover);
   }
 }
+
 
 /* Header bar draggability fix */
 .workspace::after {
