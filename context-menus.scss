@@ -3,10 +3,6 @@
   border: transparent;
   background-color: var(--background-context-menu);
   backdrop-filter: var(--menu-backdrop-filter);
-  
-  &:not(.bases-toolbar-menu) {
-    mix-blend-mode: luminosity;  
-  }
 
   .base-toolbar-sort-item {
     background: inherit;
