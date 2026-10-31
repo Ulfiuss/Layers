@@ -121,6 +121,18 @@ body {
   background-color: var(--background-secondary-alt);
 }
 
+/* Animation stuff ----------------------------------------------------------------- */
+@keyframes bob {
+  from {
+    scale: 90% 90%;
+    opacity: 50%;
+  }
+  to {
+    translate: 0 0;
+    scale: 100%;
+  }
+}
+
 /* Cards ------------------------------------------------------------------------------------------ */
 /* Header separator */
 
