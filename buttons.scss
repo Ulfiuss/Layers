@@ -162,6 +162,14 @@ select,
   } 
 }
 
+.clickable-icon {
+  transition: background-color 150ms cubic-bezier(0.61, 1, 0.87, 1);
+  
+  &:hover {
+    transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
 .side-dock-ribbon-action {
   position: relative;
   padding: 8px 10px 8px 14px;
