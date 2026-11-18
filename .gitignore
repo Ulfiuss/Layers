@@ -18,3 +18,4 @@ node_modules
 theme_old.css
 .compile_variables
 compile.sh
+.theme_dirs
