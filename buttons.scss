@@ -162,6 +162,16 @@ select,
   } 
 }
 
+.clickable-icon,
+.side-dock-ribbon-action,
+body:not(.is-mobile) .workspace-split.mod-primary-split .workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+  transition: background-color 150ms cubic-bezier(0.61, 1, 0.87, 1);
+  
+  &:hover {
+    transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
 .side-dock-ribbon-action {
   position: relative;
   padding: 8px 10px 8px 14px;
@@ -170,7 +180,7 @@ select,
     background-color: transparent;
   }
   
-  &:hover:not(:active)::after {
+  &::after {
     content: "";
     position: absolute;
     top: 0;
@@ -180,8 +190,13 @@ select,
     width: 38px;
     pointer-events: none;
     transition: inherit;
-    background-color: var(--background-modifier-hover);
+    background-color: transparent;
     border-radius: inherit;
+  
+  }
+
+  &:hover:not(:active)::after {
+    background-color: var(--background-modifier-hover);
   }
 }
 
